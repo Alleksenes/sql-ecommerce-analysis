@@ -127,6 +127,7 @@ Case 4: Payment Analysis
 5.1. VIP Champions (Est. 1-5%)
 
 This elite group represents the pinnacle of customer value, defined by perfect scores (**R=5, F=5, M=5**) translating to an RFM Sum of 15. They purchase most recently, most frequently, and spend the most, as exemplified by customers with monetary values ranging from 7k+ up to the maximum observed (*280,206.02*). Their recency is minimal (*~1-12 days*), and frequency is very high (*~7-210 purchases*). They are the core revenue drivers and likely strong brand advocates. Retaining this segment is the highest priority.
+
 Recommendations:
 •	Implement exclusive "*white-glove*" customer service and relationship management.
 •	Offer unique rewards, early access, personalized gifts, and experiences unavailable to others.
@@ -137,6 +138,7 @@ Recommendations:
 5.2. Loyal Champions (Est. 5-10%)
 
 Highly valuable and strongly engaged, these customers narrowly miss the absolute top tier, typically having at least two '5' scores and the remaining score being '4' (**RFM Sum usually 14**). Examples show recent purchases (*Recency ~14-33 days*), high frequency (*often 6-50+ purchases*), and significant spending (*~2k - 124k+*). They represent a crucial high-value group requiring consistent nurturing to maintain loyalty and potentially elevate to VIP status.
+
 Recommendations:
 •	Grant upper-tier status in loyalty programs with substantial benefits.
 •	Provide personalized product recommendations and exclusive bundles.
@@ -147,6 +149,7 @@ Recommendations:
 5.3. Loyal Core Customers (Est. 15-25%)
 
 This substantial segment forms the reliable backbone, characterized by good performance across all metrics (**R>=3, F>=3, M>=3**) or a high overall RFM Sum (>=12), excluding the top two tiers. They purchase consistently (Recency often *~1-70 days*), maintain good frequency (*~2-10+ purchases*), and exhibit solid spending (*~500 - 10k+*). While not individually the highest spenders, their collective volume and regularity are vital for stable revenue.
+
 Recommendations:
 •	Engage with standard loyalty program benefits (points, tiered discounts).
 •	Utilize segmented email marketing with relevant content and promotions.
@@ -157,6 +160,7 @@ Recommendations:
 5.4. New High Potential Customers (Est. 2-5%)
 
 These are newly acquired customers (**R>=4**) who immediately demonstrate high spending potential (**M>=4**). Their Frequency is often low (**F=1 or 2**) simply due to being new. Examples show Recency *~1-33 days* and Monetary values often *900+*. Their strong initial investment signals a high likelihood of becoming future valuable customers if properly engaged from the start.
+
 Recommendations:
 •	Implement a strong, personalized onboarding sequence highlighting value.
 •	Showcase product breadth relevant to their high-value initial purchase(s?).
@@ -167,6 +171,7 @@ Recommendations:
 5.5. New Customers (Est. 10-15%)
 
 Comprising all other recently acquired customers (**R>=4**) not classified higher, this segment exhibits varying initial frequency and monetary value (**F=1-5, M=1-3**). Our data shows many examples with F=1 or 2 and Monetary values ranging widely from low (*<50*) to moderate (*~500*). Their future value is undetermined, making their initial experiences and subsequent engagement critical for retention.
+
 Recommendations:
 •	Deliver excellent onboarding with educational content.
 •	Encourage exploration of the product/service range.
@@ -177,6 +182,7 @@ Recommendations:
 5.6. Big Spenders Lapsed/Infrequent (Est. 5-10%)
 
 These customers are characterized by high Monetary scores (**M>=4**) but lower Recency (R<=3) and potentially lower Frequency (F<=3), having not qualified for higher tiers. They make significant purchases when they do buy but lack consistent engagement. They represent substantial potential revenue if their frequency or recency can be improved. Examples include customers with very old Recency (*~>200 days*) but high M scores.
+
 Recommendations:
 •	Analyze past large purchases to understand triggers (promotions, specific items, seasonality).
 •	Target with campaigns featuring high-value items or relevant exclusive bundles.
@@ -196,6 +202,7 @@ Recommendations:
 5.8. Active Customers Needing Attention (Est. 10-20%)
 
 These customers have purchased relatively recently (**R>=3**) but show lower frequency or monetary value than the 'Loyal Core' (typically RFM Sum 9-11). They are currently engaged but haven't reached high value levels. They represent an opportunity for growth and development into more valuable segments. The data shows examples with R=3 or 4 but lower F/M scores (~F=2, M=1 or F=3, M=2).
+
 Recommendations:
 •	Increase engagement with relevant content marketing or interactive campaigns.
 •	Promote bundling, volume discounts, or loyalty thresholds to increase AOV.
@@ -206,6 +213,7 @@ Recommendations:
 5.9. Hibernating Low Value Customers (Est. 15-25%)
 
 This large segment includes customers with low scores across the board (R<=2, F<=2, M<=2) or a low RFM Sum (<=7). They haven't purchased recently, didn't buy often, and didn't spend much. The provided data shows many examples with very high Recency (*~>100-300+ days*) and low F/M scores (1s and 2s), including low monetary values like 38.10. They represent the lowest engagement and value tier.
+
 Recommendations:
 •	Minimize marketing investment; allocate resources to higher-potential segments.
 •	Include in occasional, very low-cost mass communication (~major annual sales).
@@ -215,6 +223,7 @@ Recommendations:
 5.10. Other Low Potential (Est. 5-10%)
 
 This is a catch-all for customers not fitting other defined segments, usually indicating mixed low-to-moderate scores that don't align with specific actionable groups (**~R=3, F=1, M=1**). Their overall value and engagement are typically low.
+
 Recommendations:	
 •	Apply similar low-investment strategies as the Hibernating Low Value Customers segment.
 •	Monitor segment composition – if specific patterns emerge, consider refining segmentation rules.
