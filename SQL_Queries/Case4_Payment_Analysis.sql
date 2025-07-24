@@ -46,8 +46,7 @@ ORDER BY payment_instances DESC;
 
 -- Case 4, Q3: Installment Usage (Credit Card) by Product Category
 WITH OrderCategoryPayment AS (
-    -- Get distinct order-category pairs and link to CC payment info
-    SELECT DISTINCT -- Ensure one row per order-category-payment record relevant
+    SELECT DISTINCT
         oi.order_id,
         pr.product_category_name,
         p.payment_installments
@@ -65,7 +64,7 @@ SELECT
         / COUNT(order_id), 1
     ) AS pct_cc_orders_with_installments,
     COUNT(CASE WHEN payment_installments = 1 THEN order_id END) AS cc_single_pay_orders,
-    COUNT(order_id) AS total_cc_orders -- Total CC orders containing this category
+    COUNT(order_id) AS total_cc_orders
 FROM OrderCategoryPayment
 GROUP BY product_category_name
 HAVING COUNT(order_id) > 10 

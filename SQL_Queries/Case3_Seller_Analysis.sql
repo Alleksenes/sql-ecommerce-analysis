@@ -4,7 +4,7 @@ WITH OrderDeliveryCalc AS (
     SELECT
         oi.seller_id,
         oi.order_id,
-        (o.order_delivered_customer_date - o.order_purchase_timestamp) AS delivery_interval -- to calculates order put, disregarding seller's approval
+        (o.order_delivered_customer_date - o.order_purchase_timestamp) AS delivery_interval
     FROM orders AS o
     INNER JOIN order_items AS oi ON o.order_id = oi.order_id
     WHERE o.order_status = 'delivered'
@@ -20,7 +20,7 @@ SellerDeliveryStats AS (
         PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY EXTRACT(DAY FROM delivery_interval)) AS median_delivery_days
     FROM OrderDeliveryCalc
     GROUP BY seller_id
-    HAVING COUNT(DISTINCT order_id) >= 20 -- *** Filter for minimum order volume ***
+    HAVING COUNT(DISTINCT order_id) >= 20
 ),
 RankedSellers AS (
     SELECT
